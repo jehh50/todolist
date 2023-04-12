@@ -3,6 +3,7 @@ import { TodoContext } from '../TodoContext';
 import './TodoSearch.css';
 
 function TodoSearch() {
+  const ignacioContext = React.createContext("Ignacio");
 
   const {searchValue, setSearchValue} = React.useContext(TodoContext);
 
